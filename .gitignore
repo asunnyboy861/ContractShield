@@ -55,6 +55,10 @@ fastlane/test_output
 .env
 .env.local
 
+# Coze API Configuration (contains sensitive credentials)
+ContractShield/CozeConfig.xcconfig
+**/CozeConfig.xcconfig
+
 # Build logs
 *.log
 
